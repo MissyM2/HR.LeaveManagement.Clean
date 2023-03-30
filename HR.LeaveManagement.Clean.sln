@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Persistence", "HR.LeaveManagement.Persistence\HR.LeaveManagement.Persistence.csproj", "{77123E45-BF46-4FB2-AFA1-881650585727}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Infrastructure", "HR.LeaveManagement.Infrastructure\HR.LeaveManagement.Infrastructure.csproj", "{E308F208-5AC4-467E-97ED-19D82886EE9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,14 @@ Global
 		{77123E45-BF46-4FB2-AFA1-881650585727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77123E45-BF46-4FB2-AFA1-881650585727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77123E45-BF46-4FB2-AFA1-881650585727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424B2F05-80AA-4147-95E1-58771B48C640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424B2F05-80AA-4147-95E1-58771B48C640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424B2F05-80AA-4147-95E1-58771B48C640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424B2F05-80AA-4147-95E1-58771B48C640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E308F208-5AC4-467E-97ED-19D82886EE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E308F208-5AC4-467E-97ED-19D82886EE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E308F208-5AC4-467E-97ED-19D82886EE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E308F208-5AC4-467E-97ED-19D82886EE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +64,7 @@ Global
 		{97B1D2BA-0A84-4E16-82F8-4654234AB443} = {168A6D96-1DF9-4DC5-ACFA-1BDEAAC10CE3}
 		{2F0F9050-3500-4413-B9ED-BE9BD1A06FFC} = {629F273E-CCB7-4D2E-9C33-0D5F7399A5DA}
 		{77123E45-BF46-4FB2-AFA1-881650585727} = {E3A36C05-23B2-49A2-8374-F2FDDE599659}
+		{424B2F05-80AA-4147-95E1-58771B48C640} = {E3A36C05-23B2-49A2-8374-F2FDDE599659}
+		{E308F208-5AC4-467E-97ED-19D82886EE9A} = {E3A36C05-23B2-49A2-8374-F2FDDE599659}
 	EndGlobalSection
 EndGlobal

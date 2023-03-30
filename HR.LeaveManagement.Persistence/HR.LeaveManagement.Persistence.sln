@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Persistence", "HR.LeaveManagement.Persistence.csproj", "{26ACFBD9-3F48-4A3F-A4A5-FF815F99D8B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26ACFBD9-3F48-4A3F-A4A5-FF815F99D8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26ACFBD9-3F48-4A3F-A4A5-FF815F99D8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26ACFBD9-3F48-4A3F-A4A5-FF815F99D8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26ACFBD9-3F48-4A3F-A4A5-FF815F99D8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {646BF1C9-60B6-417B-8CC9-A8558E4BD340}
+	EndGlobalSection
+EndGlobal
