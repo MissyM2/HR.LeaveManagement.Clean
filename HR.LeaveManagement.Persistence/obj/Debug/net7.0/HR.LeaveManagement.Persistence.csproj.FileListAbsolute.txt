@@ -1,0 +1,17 @@
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/bin/Debug/net7.0/HR.LeaveManagement.Persistence.deps.json
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/bin/Debug/net7.0/HR.LeaveManagement.Persistence.dll
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/bin/Debug/net7.0/HR.LeaveManagement.Persistence.pdb
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.csproj.AssemblyReference.cache
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.AssemblyInfoInputs.cache
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.AssemblyInfo.cs
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.csproj.CoreCompileInputs.cache
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.dll
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/obj/Debug/net7.0/refint/HR.LeaveManagement.Persistence.dll
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.pdb
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/obj/Debug/net7.0/ref/HR.LeaveManagement.Persistence.dll
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/bin/Debug/net7.0/HR.LeaveManagement.Application.dll
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/bin/Debug/net7.0/HR.LeaveManagement.Domain.dll
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/bin/Debug/net7.0/HR.LeaveManagement.Application.pdb
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/bin/Debug/net7.0/HR.LeaveManagement.Domain.pdb
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.csproj.CopyComplete
