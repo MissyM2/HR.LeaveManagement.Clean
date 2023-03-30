@@ -1,0 +1,12 @@
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/bin/Debug/net7.0/HR.LeaveManagement.Domain.deps.json
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/bin/Debug/net7.0/HR.LeaveManagement.Domain.dll
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/bin/Debug/net7.0/HR.LeaveManagement.Domain.pdb
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/HR.LeaveManagement.Domain.csproj.AssemblyReference.cache
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/HR.LeaveManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/HR.LeaveManagement.Domain.AssemblyInfoInputs.cache
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/HR.LeaveManagement.Domain.AssemblyInfo.cs
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/HR.LeaveManagement.Domain.csproj.CoreCompileInputs.cache
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/HR.LeaveManagement.Domain.dll
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/refint/HR.LeaveManagement.Domain.dll
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/HR.LeaveManagement.Domain.pdb
+/Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/ref/HR.LeaveManagement.Domain.dll
