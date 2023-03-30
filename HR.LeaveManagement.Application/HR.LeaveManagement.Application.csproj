@@ -18,6 +18,9 @@
     <None Remove="Features\LeaveType\Queries\" />
     <None Remove="Features\LeaveType\Queries\GetAllLeaveTypes\" />
     <None Remove="Features\LeaveType\Queries\GetLeaveTypeDetails\" />
+    <None Remove="Features\LeaveType\Commands\CreateLeaveType\" />
+    <None Remove="Features\LeaveType\Commands\DeleteLeaveType\" />
+    <None Remove="Features\LeaveType\Commands\UpdateLeaveType\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
@@ -32,6 +35,9 @@
     <Folder Include="Features\LeaveType\Queries\" />
     <Folder Include="Features\LeaveType\Queries\GetAllLeaveTypes\" />
     <Folder Include="Features\LeaveType\Queries\GetLeaveTypeDetails\" />
+    <Folder Include="Features\LeaveType\Commands\CreateLeaveType\" />
+    <Folder Include="Features\LeaveType\Commands\DeleteLeaveType\" />
+    <Folder Include="Features\LeaveType\Commands\UpdateLeaveType\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HR.LeaveManagement.Domain\HR.LeaveManagement.Domain.csproj" />
@@ -40,5 +46,7 @@
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="FluentValidation" Version="11.5.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.1" />
   </ItemGroup>
 </Project>

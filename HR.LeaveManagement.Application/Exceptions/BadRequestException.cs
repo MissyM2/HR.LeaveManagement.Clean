@@ -1,5 +1,5 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
+using FluentValidation.Results;
 
 namespace HR.LeaveManagement.Application.Exceptions
 {
