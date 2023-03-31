@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HR.LeaveManagement.Persistence.Repositories
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         protected readonly HrDatabaseContext _context;
 
@@ -34,9 +34,7 @@ namespace HR.LeaveManagement.Persistence.Repositories
 
         public async Task<T> GetByIdAsync(int id)
         {
-            return await _context.Set<T>()
-                .AsNoTracking()
-                .FirstOrDefaultAsync(q => q.Id == id);
+            return await _context.Set<T>().FindAsync(id);
         }
 
         public async Task UpdateAsync(T entity)
