@@ -10,3 +10,17 @@
 /Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/refint/HR.LeaveManagement.Domain.dll
 /Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/HR.LeaveManagement.Domain.pdb
 /Users/missymaloney/DevelopmentMyProjects/HR.LeaveManagement.Clean/HR.LeaveManagement.Domain/obj/Debug/net7.0/ref/HR.LeaveManagement.Domain.dll
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\bin\Debug\net7.0\HR.LeaveManagement.Domain.deps.json
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\bin\Debug\net7.0\HR.LeaveManagement.Domain.runtimeconfig.json
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\bin\Debug\net7.0\HR.LeaveManagement.Domain.dll
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\bin\Debug\net7.0\HR.LeaveManagement.Domain.pdb
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\obj\Debug\net7.0\HR.LeaveManagement.Domain.csproj.AssemblyReference.cache
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\obj\Debug\net7.0\HR.LeaveManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\obj\Debug\net7.0\HR.LeaveManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\obj\Debug\net7.0\HR.LeaveManagement.Domain.AssemblyInfo.cs
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\obj\Debug\net7.0\HR.LeaveManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\obj\Debug\net7.0\HR.LeaveManagement.Domain.dll
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\obj\Debug\net7.0\refint\HR.LeaveManagement.Domain.dll
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\obj\Debug\net7.0\HR.LeaveManagement.Domain.pdb
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\obj\Debug\net7.0\HR.LeaveManagement.Domain.genruntimeconfig.cache
+C:\Users\maloney_f\Documents\Westat\training\HR.LeaveManagement.Clean\HR.LeaveManagement.Domain\obj\Debug\net7.0\ref\HR.LeaveManagement.Domain.dll
