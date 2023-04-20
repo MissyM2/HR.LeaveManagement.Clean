@@ -23,7 +23,6 @@
     <None Remove="Features\LeaveType\Commands\UpdateLeaveType\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Contracts\" />
     <Folder Include="Contracts\Persistence\" />
     <Folder Include="Exceptions\" />
     <Folder Include="HR.LeaveManagement.Application\" />
