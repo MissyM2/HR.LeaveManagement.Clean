@@ -105,19 +105,18 @@ namespace HR.LeaveManagement.Identity.Services
             .Union(userClaims)
             .Union(roleClaims);
 
-            var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
+            var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Value.Key));
 
             var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
 
             var jwtSecurityToken = new JwtSecurityToken(
-               issuer: _jwtSettings.Issuer,
-               audience: _jwtSettings.Audience,
+               issuer: _jwtSettings.Value.Issuer,
+               audience: _jwtSettings.Value.Audience,
                claims: claims,
-               expires: DateTime.Now.AddMinutes(_jwtSettings.DurationInMinutes),
-               signingCredentials: signingCredentials);
+            expires: DateTime.Now.AddMinutes(_jwtSettings.Value.DurationInMinutes),
+            signingCredentials: signingCredentials);
             return jwtSecurityToken;
         }
 
     }
-}
 }
