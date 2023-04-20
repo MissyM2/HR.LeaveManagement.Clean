@@ -69,7 +69,7 @@ namespace HR.LeaveManagement.BlazorUI.Services
             }
             catch (ApiException ex)
             {
-                ConvertApiExceptions<Guid>(ex);
+                return ConvertApiExceptions<Guid>(ex);
             }
         }
     }

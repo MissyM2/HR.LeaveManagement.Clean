@@ -6,10 +6,11 @@ namespace HR.LeaveManagement.BlazorUI.MappingProfiles
 {
     public class MappingConfig : Profile
     {
-        public MappingConfig() 
+        public MappingConfig()
         {
             CreateMap<LeaveTypeDto, LeaveTypeVM>().ReverseMap();
             CreateMap<CreateLeaveTypeCommand, LeaveTypeVM>().ReverseMap();
             CreateMap<UpdateLeaveTypeCommand, LeaveTypeVM>().ReverseMap();
         }
+    }
 }

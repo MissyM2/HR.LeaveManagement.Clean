@@ -5,4 +5,3 @@
         public HttpClient HttpClient { get; }
     }
 }
-
