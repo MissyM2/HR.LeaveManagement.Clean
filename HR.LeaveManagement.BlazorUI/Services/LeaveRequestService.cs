@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Blazored.LocalStorage;
 using HR.LeaveManagement.BlazorUI.Contracts;
 using HR.LeaveManagement.BlazorUI.Models.LeaveAllocations;
 using HR.LeaveManagement.BlazorUI.Models.LeaveRequests;
@@ -10,40 +11,28 @@ namespace HR.LeaveManagement.BlazorUI.Services
     {
         private readonly IMapper _mapper;
 
-        public LeaveRequestService(IClient client, IMapper mapper) : base(client)
+        public LeaveRequestService(IClient client, IMapper mapper, ILocalStorageService localStorageService) : base(client, localStorageService)
         {
             this._mapper = mapper;
         }
 
-        public async Task<Response<Guid>> ApproveLeaveRequest(int id, bool approved)
+        public async Task ApproveLeaveRequest(int id, bool approved)
         {
             try
             {
-                var response = new Response<Guid>();
                 var request = new ChangeLeaveRequestApprovalCommand { Approved = approved, Id = id };
                 await _client.UpdateApprovalAsync(request);
-                return response;
             }
-            catch (ApiException ex)
+            catch (Exception)
             {
-                return ConvertApiExceptions<Guid>(ex);
+
+                throw;
             }
         }
 
-        public async Task<Response<Guid>> CancelLeaveRequest(int id)
+        public Task<Response<Guid>> CancelLeaveRequest(int id)
         {
-            try
-            {
-                var response = new Response<Guid>();
-                var request = new CancelLeaveRequestCommand { Id = id };
-                await _client.CancelRequestAsync(request);
-                return response;
-            }
-            catch (ApiException ex)
-            {
-                return ConvertApiExceptions<Guid>(ex);
-            }
-
+            throw new NotImplementedException();
         }
 
         public async Task<Response<Guid>> CreateLeaveRequest(LeaveRequestVM leaveRequest)
@@ -84,12 +73,14 @@ namespace HR.LeaveManagement.BlazorUI.Services
 
         public async Task<LeaveRequestVM> GetLeaveRequest(int id)
         {
+            await AddBearerToken();
             var leaveRequest = await _client.LeaveRequestsGETAsync(id);
             return _mapper.Map<LeaveRequestVM>(leaveRequest);
         }
 
         public async Task<EmployeeLeaveRequestViewVM> GetUserLeaveRequests()
         {
+            await AddBearerToken();
             var leaveRequests = await _client.LeaveRequestsAllAsync(isLoggedInUser: true);
             var allocations = await _client.LeaveAllocationsAllAsync(isLoggedInUser: true);
             var model = new EmployeeLeaveRequestViewVM
@@ -100,6 +91,10 @@ namespace HR.LeaveManagement.BlazorUI.Services
 
             return model;
         }
+
+        Task<Response<Guid>> ILeaveRequestService.ApproveLeaveRequest(int id, bool approved)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
-
