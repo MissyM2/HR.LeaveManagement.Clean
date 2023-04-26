@@ -73,14 +73,12 @@ namespace HR.LeaveManagement.BlazorUI.Services
 
         public async Task<LeaveRequestVM> GetLeaveRequest(int id)
         {
-            await AddBearerToken();
             var leaveRequest = await _client.LeaveRequestsGETAsync(id);
             return _mapper.Map<LeaveRequestVM>(leaveRequest);
         }
 
         public async Task<EmployeeLeaveRequestViewVM> GetUserLeaveRequests()
         {
-            await AddBearerToken();
             var leaveRequests = await _client.LeaveRequestsAllAsync(isLoggedInUser: true);
             var allocations = await _client.LeaveAllocationsAllAsync(isLoggedInUser: true);
             var model = new EmployeeLeaveRequestViewVM
